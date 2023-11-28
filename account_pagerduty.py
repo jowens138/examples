@@ -9,7 +9,7 @@ def AccountCreation(Employee):
     headers = {
         'Accept': 'application/application/json',
         'Content-Type': 'application/json',
-        'Authorization': 'Token token=rJPi9by3i5ZqmdgXJC9w'
+        'Authorization': 'Token token='
     }
 
     body = {
