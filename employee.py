@@ -78,11 +78,11 @@ class Employee:
             self.GoogleGroups.append("bellevue@jbowens.me")
         elif self.Office == "Atlanta":
             self.GoogleGroups.append("atlanta@jbowens.me")           
-        elif (self.Office == "Guelph") and (self.Division == "Qool"):
+        elif (self.Office == "Guelph") and (self.Division == "1"):
             self.GoogleGroups.append("employees@jbowens.me", )
-            self.GoogleGroups.append("guelph@jbowens.me")
-        elif (self.Office == "Guelph") and (self.Division == "Concourse"):
-            self.GoogleGroups.append("concourse-employees@jbowens.me")
+            self.GoogleGroups.append("one@jbowens.me")
+        elif (self.Office == "Guelph") and (self.Division == "2"):
+            self.GoogleGroups.append("two@jbowens.me")
 
     #Create list of LastPass groups based on department
     def AddLastPassGroups(self):
